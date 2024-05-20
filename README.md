@@ -88,6 +88,14 @@ The feedback block allows users to rate their experience and leave comments. It 
 2. **Comment Textarea**: Users can type comments.
 3. **Submit Button**: On clicking, `submitFeedback()` disables inputs, changes the button text to "Submitted," and shows an alert thanking the user with their rating.
 
+## Installation
+
+To install the necessary libraries, run:
+
+```bash
+pip install Flask PyPDF2 langchain langchain_community cohere faiss-cpu
+```
+
 ## Running the Application
 
 Run the Flask application by executing:
