@@ -104,5 +104,8 @@ Run the Flask application by executing:
 if __name__ == '__main__':
     app.run(debug=True)
 ```
+
+Once the server is running, open your web browser and go to [http://127.0.0.1:5000](http://127.0.0.1:5000) to access the application.
+
 ### License
 This project is licensed under the MIT License. See the LICENSE file for details.
